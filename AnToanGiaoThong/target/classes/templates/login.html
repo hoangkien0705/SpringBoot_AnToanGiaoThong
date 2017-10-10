@@ -1,57 +1,12 @@
-<!-- 
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
-
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta http-equiv="Cache-control" content="public" />
-	<title>Account</title>
-
- 	<link href="../static/css/login.css" th:href="@{/css/login.css}" rel="stylesheet" />
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
-	<style>
-		@import url(https://fonts.googleapis.com/css?family=Open+Sans);		
-	</style>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-</head>
-<body>
-	<div class="login">
-		<h1>Login</h1>
-		<form th:action="@{/login}" method="post">
-			<input type="text" name="username" placeholder="Username" required="required" /> 
-			<input class="compoment" type="password" name="password" placeholder="Password" required="required" />
-			<a href="forgot_pass" class="compoment" style="color: white"><u>Quên mật khẩu</u></a>
-			<button  type="submit" style="margin-top: 20px" class="btn btn-primary btn-block btn-large compoment">Login</button>
-		</form>
-	</div>
-</body>
-
-</html>
-
- -->
-
 <!DOCTYPE html>
 <html>
 
 <head>
 	<meta charset="utf-8" />
 	<title>Demo React</title>
-	<script src="/libs/react.js"></script> <!-- https://unpkg.com/react@16/umd/react.production.min.js  -->
-	<script src="/libs/react-dom.js"></script> <!-- https://unpkg.com/react-dom@16/umd/react-dom.production.min.js -->
-	<script src="/libs/browser.min.js"></script> <!-- https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.min.js -->
-	
+	<script src="bundle.js"></script>
 </head>
-
 <body>
-	<div id="root">
-	</div>
-	<script src="/js/login.js" type="text/babel">
-		
-	</script>
 </body>
 
 </html>
